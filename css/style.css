@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+
+}
+
+body {
+  align-items: center;
+  margin-top: 2rem;
+  font-family: "Fira Mono", monospace;
+}
+.check_wrapper{
+  padding: 20px 20px 20px 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.checklist {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+}
+a {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: red;
+  color: black;
+}
+.check_item {
+  font-size: 22px;
+}
+
+h1 {
+  text-align: center;
+  margin: auto 0;
+}
+ol {
+	list-style-type: none;
+	counter-reset: li;
+}
+li {
+	font-size: 1.5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  letter-spacing: 1px;
+
+}
+
+li:before {
+  counter-increment: li;
+  content: counter(li, decimal-leading-zero);
+	color: red;
+	margin-right: 0.25em;
+
+}
+.wrapped {
+  background-color: green;
+}
+.new {
+  width:  100%;
+  height:  50%;
+  background-color: green;
+}
