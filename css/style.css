@@ -25,6 +25,10 @@ a {
   text-decoration-color: red;
   color: black;
 }
+.links {
+  text-align: center;
+  margin-top: 1.7%;
+}
 .check_item {
   font-size: 22px;
 }
